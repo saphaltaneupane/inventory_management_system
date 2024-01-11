@@ -17,7 +17,7 @@
 <div class="menu">
 	<a href="item_form.php"  >Insert Items</a>
 	<a href="displayItem.php" >Display Items</a>
-	<a href="" >SingUp User</a>
+	<a href="signup.php" >SingUp User</a>
 	<a href="" >Display User</a>
 	<a href="" >Purchase</a>
 	<a href="" >Sale</a>

@@ -2,22 +2,20 @@
 include "menu.php";
 include "dbConnection.php";
 ?>
-<div class="signup-container">
-    <div class="signup-box">
-      <h1>Signup</h1>
-      <form>
-    
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <label for="confirm_password">Confirm Password:</label>
-        <input type="password" id="confirm_password" name="confirm_password" required>
-
-        
-        <button type="submit">Signup</button>
-      </form>
+<div class="main-content">
+    <div class="title">
+        Signup-Form
     </div>
-  </div>
+    <div class="content">
+        <form action="insertItem.php" method="POST">
+        <label>Username</label>
+        <input type="text" name="username">
+        <label>Password</label>
+        <input type="password" name="password">
+        
+        <input type="signup" class="btn success" name="">
+        <input type="reset" class="btn delete" name="">
+
+        </form> 
+    </div>
+</div>
