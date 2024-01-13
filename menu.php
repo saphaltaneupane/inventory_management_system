@@ -6,6 +6,7 @@
 	<link rel="icon" type="image/x-icon" href="images/favicon.jpg">
 	<style type="text/css">
 	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 	<div class="nav-bar">

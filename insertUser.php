@@ -1,5 +1,5 @@
 <?php 
-sleep(1);
+sleep(2);
 $username=$_POST['username'];
 $password=$_POST['password'];
 $status="pending";
