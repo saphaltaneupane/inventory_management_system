@@ -1,3 +1,12 @@
+<?php
+session_start();
+if(!(isset($_SESSION['username']))){
+	header("location:loginForm.php");
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,8 +20,8 @@
 <body>
 	<div class="nav-bar">
 		<div class="system-name">Inventory System</div>
-		<a href=""> logout</a> 
-		<div class="user">Welcome :  </div>
+		<a href="logout.php"> logout</a> 
+		<div class="user">Welcome :<?php echo $_SESSION['username']; ?> </div>
 		
 	</div>
 <div class="menu">

@@ -1,5 +1,8 @@
 <?php 
 include "menu.php";
+if($_SESSION['username']!="admin"){
+    die("only admin can access this page");
+}
 include "dbConnection.php";
 $q= "select id,username,status from user";
 $result=mysqli_query($con,$q);
