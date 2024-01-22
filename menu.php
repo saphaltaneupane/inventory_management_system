@@ -29,7 +29,7 @@ if(!(isset($_SESSION['username']))){
 	<a href="displayItem.php" >Display Items</a>
 	<a href="signup.php" >SingUp User</a>
 	<a href="displayUser.php" >Display User</a>
-	<a href="" >Purchase</a>
+	<a href="purchaseUser.php" >Purchase</a>
 	<a href="" >Sale</a>
 	<a href="" >Display Purchase Data</a>
 	<a href="">Stock</a>
